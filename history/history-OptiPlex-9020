@@ -1,0 +1,193 @@
+    1  ls
+    2  ls 'l
+    3  ,s p
+    4  ls -l
+    5  \
+    6  cd /media/uk/
+    7  ls
+    8  cd uk/
+    9  ls
+   10  cd a/
+   11  ls
+   12  cd ..
+   13  ls
+   14  cd Freelance/
+   15  l;s
+   16  ls
+   17  cd Academia/
+   18  ls
+   19  cd LX2_emmanuel/
+   20  ls
+   21  ls -l
+   22  tree
+   23  sudo apt-get install tree
+   24  tree
+   25  git init 
+   26  sudo apt-get install git
+   27  git init 
+   28  ls -a
+   29  ls -al
+   30  tree .git/
+   31  ssh uk@163.178.110.7
+   32  vim ~/.gitconfig
+   33  ls -la ~
+   34  ls -la
+   35  git status 
+   36  git add error/
+   37  git add history/
+   38  git add src/
+   39  git status 
+   40  ls
+   41  mkdir misc
+   42  touch misc/.gitignore 
+   43  git status 
+   44  git add misc/
+   45  git status 
+   46  ls
+   47  vim .gitignore
+   48  touch misc/file.so
+   49  git status 
+   50  mv .gitignore ../
+   51  git status\
+   52  git status
+   53  mv ../.gitignore .
+   54  git status
+   55  vim .gitignore 
+   56  ls
+   57  fg
+   58  rm misc/file.so 
+   59  git status 
+   60  git add .gitignore 
+   61  git status 
+   62  git commit -m "Inicializacion del arbol de desarrollo"
+   63  git log
+   64  git remote add github https://github.com/emvarg/LX2_emmanuel.git
+   65  git remote
+   66  git remote -v
+   67  git push -u github  master
+   68  tree
+   69  git log
+   70  gi p
+   71  git pull github master
+   72  git push github master 
+   73  git log
+   74  git pull github 
+   75  git log
+   76  ls
+   77  cd. .
+   78  ls
+   79  cd ..
+   80  ls
+   81  cd LX2
+   82  cd LXS2/
+   83  ls
+   84  cd clase5/
+   85  ls
+   86  cd S5/
+   87  ls
+   88  ls pro
+   89  tree problemas/
+   90  ls
+   91  ls proyectoFinal
+   92  tree proyectoFinal
+   93  cd proyectoFinal
+   94  ls
+   95  cd problema3/
+   96  ls
+   97  less Datos 
+   98  vim Datos 
+   99  ls -la
+  100  vim Datos 
+  101  df -lh
+  102  sudo apt-get install gparted
+  103  cd /tmp/
+  104  ls
+  105  ls -l
+  106  git clone https://github.com/emvarg/LX2_emmanuel.git
+  107  ls
+  108  ls -l
+  109  tree LX2_emmanuel/
+  110  ls
+  111  git clone https://github.com/emvarg/LX2_emmanuel.git  repo-dev
+  112  ls
+  113  tree repo-dev/
+  114  ls
+  115  cd LX2_emmanuel/
+  116  ls
+  117  ls -l
+  118  dmesg | tail > misc/dmesg.tail
+  119  cat misc/dmesg.tail
+  120  cat misc/dmesg.tail | wc
+  121  dmesg | tail -n 20 > misc/dmesg.tail
+  122  cat misc/dmesg.tail | wc
+  123  git status 
+  124  git add misc/dmesg.tail 
+  125  git status 
+  126  git commit -m "prueba de pull"
+  127  git log
+  128  ls
+  129  ls misc/
+  130  ls misc/ -a
+  131  git status 
+  132  git push origin master 
+  133  git remote -v
+  134  cd 
+  135  ls
+  136  cd /media/
+  137  ls
+  138  cd /media/
+  139  ls
+  140  cd uk/
+  141  ls
+  142  cd uk/
+  143  ls
+  144  cd Freelance/
+  145  ls
+  146  cd Academia/
+  147  ls
+  148  cd LX2_emmanuel/
+  149  ls
+  150  history >> history/history-$HOSTNAME
+  151  tree history/
+  152  git status 
+  153  history
+  154  cd 
+  155  ls
+  156  sudo su -
+  157  id
+  158  cd /media/uk/
+  159  cd uk/
+  160  ls
+  161  cd Freelance/
+  162  ls
+  163  cd Academia/
+  164  ls
+  165  cd LX2_emmanuel/
+  166  ls
+  167  cat history/history-
+  168  cd history/
+  169  ls
+  170  ls -l
+  171  cat history-OptiPlex-9020 
+  172  ls
+  173  date +%Y%m%d_%H%M 
+  174  #date +%Y%m%d_%H%M >> 
+  175  echo "##########" >> history-OptiPlex-9020 
+  176  date +%Y%m%d_%H%M >> history-OptiPlex-9020 
+  177  echo "##########" >> history-OptiPlex-9020 
+  178  cat history-OptiPlex-9020
+  179  cd /media/uk/uk/
+  180  ls
+  181  cd Freelance/
+  182  ls
+  183  cd Academia/
+  184  s
+  185  ls
+  186  cd LX2_emmanuel/
+  187  ls
+  188  cd history/
+  189  ls
+  190  cat history-OptiPlex-9020 
+  191  history >> history-OptiPlex-9020 
+  192  less history-OptiPlex-9020
+  193  history > history-OptiPlex-9020
