@@ -221,3 +221,51 @@
   221  cd history/
   222  ls
   223  history > history-OptiPlex-9020 
+  224  git add history-OptiPlex-9020
+  225  git commit -m "otro ejemplo de diff"
+  226  gitk
+  227  cd 
+  228  sudo su -
+  229  cd -
+  230  ls
+  231  touch history-root-$HOSTNAME
+  232  ls -l
+  233  sudo su -
+  234  ls -l
+  235  less history-root-OptiPlex-9020 
+  236  git add history-root-OptiPlex-9020 
+  237  git commit -m "hisotry de root en optiplex"
+  238  gitk
+  239  cd 
+  240  repo=/media/uk/uk/Freelance/Academia/LX2_emmanuel/history/
+  241  history /media/uk/uk/Freelance/Academia/LX2_emmanuel/history//history
+  242  vim .bashrc 
+  243  fg
+  244  ls $repo
+  245  fg
+  246  source .bashrc 
+  247  vim .bashrc 
+  248  histbk
+  249  source .bashrc 
+  250  histbk
+  251  vim .bashrc 
+  252  source .bashrc 
+  253  hist
+  254  vim .bashrc 
+  255  source .bashrc 
+  256  cd $repo
+  257  git status 
+  258  cd
+  259  vim .bashrc 
+  260  cd $repo
+  261  ls -l
+  262  gitk
+  263  git push github master
+  264  gitk
+  265  git status 
+  266  cd 
+  267  ls
+  268  man bash 
+  269  bash --version
+  270  echo $SHELL
+  271  hist
