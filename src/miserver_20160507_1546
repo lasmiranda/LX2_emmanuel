@@ -1,0 +1,42 @@
+Este es mi primer script, soy uk en la estacion lab08-00
+############### Usuarios ###############
+ 
+uk       :0           2016-05-07 12:56 (:0)
+uk       pts/10       2016-05-07 14:34 (:0:S.1)
+uk       pts/7        2016-05-07 14:34 (:0:S.0)
+############### Espacio en disco ###############
+ 
+S.ficheros     Tamaño Usados  Disp Uso% Montado en
+udev             3,9G   4,0K  3,9G   1% /dev
+tmpfs            790M   1,5M  788M   1% /run
+/dev/sda7        169G   5,4G  155G   4% /
+none             4,0K      0  4,0K   0% /sys/fs/cgroup
+none             5,0M      0  5,0M   0% /run/lock
+none             3,9G   124M  3,8G   4% /run/shm
+none             100M    44K  100M   1% /run/user
+/dev/sda5        945M    38M  843M   5% /boot
+/dev/sdb1         15G   7,0G  7,6G  48% /media/uk/uk
+############### Conexiones Activas ###############
+ 
+tcp        0      0 10.124.18.100:49108     74.125.196.138:443      ESTABLECIDO
+tcp        0      0 10.124.18.100:41788     74.125.196.102:443      ESTABLECIDO
+tcp        0      0 10.124.18.100:49110     74.125.196.138:443      ESTABLECIDO
+tcp        0      0 10.124.18.100:47756     64.233.185.188:5228     ESTABLECIDO
+udp        0      0 10.124.18.100:43847     74.125.196.189:443      ESTABLECIDO
+############### Puertos ###############
+ 
+
+Starting Nmap 6.40 ( http://nmap.org ) at 2016-05-07 15:46 CST
+Nmap scan report for localhost (127.0.0.1)
+Host is up (0.00019s latency).
+Not shown: 993 closed ports
+PORT     STATE SERVICE
+22/tcp   open  ssh
+25/tcp   open  smtp
+80/tcp   open  http
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+631/tcp  open  ipp
+3306/tcp open  mysql
+
+Nmap done: 1 IP address (1 host up) scanned in 0.06 seconds

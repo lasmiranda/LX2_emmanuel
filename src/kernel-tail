@@ -1,0 +1,23 @@
+  469  ./variables.sh 
+  470  which python
+  471  ls
+  472  dmesg | tail > kernel-tail
+  473  ls -l
+  474  cat kernel-tail 
+  475  history | tail > kernel-tail
+  476  ls | tail >> kernel-tail
+  477  cat kernel-tail 
+  478  history | tail > kernel-tail
+ 
+ 
+ 
+[ 6020.752074] scsi 7:0:0:0: Direct-Access     Kingston DataTraveler 2.0 PMAP PQ: 0 ANSI: 4
+[ 6020.752424] sd 7:0:0:0: Attached scsi generic sg2 type 0
+[ 6022.601413] sd 7:0:0:0: [sdb] 30497664 512-byte logical blocks: (15.6 GB/14.5 GiB)
+[ 6022.602019] sd 7:0:0:0: [sdb] Write Protect is off
+[ 6022.602021] sd 7:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 6022.602637] sd 7:0:0:0: [sdb] No Caching mode page found
+[ 6022.602639] sd 7:0:0:0: [sdb] Assuming drive cache: write through
+[ 6022.629138]  sdb: sdb1
+[ 6022.632429] sd 7:0:0:0: [sdb] Attached SCSI removable disk
+[ 6024.519312] FAT-fs (sdb1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.

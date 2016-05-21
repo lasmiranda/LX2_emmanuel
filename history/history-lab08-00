@@ -1,0 +1,135 @@
+  354  sudo apt-get install vim-tutor
+  355  sudo apt-get install vim-nox
+  356  vimtutor 
+  357  ks
+  358  ls
+  359  sudo su -
+  360  sudo vim /etc/ssh/sshd_config 
+  361  ls
+  362  cd /mt
+  363  cd /tmp/
+  364  ls
+  365  echo Hola mundo > file1_$HOSTNAME
+  366  ls -l
+  367  casa=emma
+  368  echo $casa
+  370  ls -l
+  371  htop
+  372  ps aux | grep bash
+  373  w
+  374  ps aux | grep bash
+  375  pstree
+  376  pstree | less
+  377  echo $casa
+  378  exit
+  379  echo $devpath
+  380  casa=123
+  381  echo $casa
+  382  mkdir bin
+  383  cd bin/
+  384  ls
+  385  which ls
+  386  which mkdir 
+  387  cd 
+  388  cd bin/
+  389  ls
+  390  file /bin/mkdir 
+  391  cp /bin/mkdir  .
+  392  ls -l
+  393  cp /bin/ls .
+  394  ls -l
+  395  cp /bin/echo .
+  396  ls -l
+  397  rm echo 
+  398  ls
+  399  cd 
+  400  ls
+  401  echo $casa
+  402  casa=emma
+  403  echo $casa
+  404  bash
+  405  echo $casa
+  406  unset $casa
+  407  echo $casa
+  408  unset casa
+  409  echo $casa
+  410  export casa=emma
+  411  echo $emma
+  412  export $casa=emma
+  413  echo $emma
+  414  echo $casa
+  415  unset emma
+  416  echo $casa
+  417  vim .bashrc 
+  418  cd /var/log/apache2/
+  419  cd /usr/share/doc/vim-common/
+  420  ls
+  421  fg
+  422  cd 
+  423  cd $devpath
+  424  source .bashrc 
+  425  echo $devpath
+  426  cd $devpath
+  427  cd 
+  428  cd /tmp/
+  429  ls
+  430  sudo cp file1_emma $devpath
+  431  ls $devpath
+  432  cd /etc/
+  433  ls
+  434  vim bash.bashrc 
+  435  ls -l bash.bashrc
+  436  ls 
+  437  cd 
+  438  ls
+  439  echo $PATH
+  440  which ls
+  441  which echo
+  442  which mount 
+  443  which mkdir 
+  444  bash
+  445  echo 
+  446  echo $casa
+  447  env PATH=/home/uk/bin:$PATH
+  448  env PATH=/home/uk/bin bash
+  449  env PATH=/home/uk/bin sh
+  450  ls -l
+  451  cd Vídeos/
+  452  cd .
+  453  cd 
+  454  ls
+  455  env PATH=/home/uk/bin bash
+  456  env PATH=/home/uk/bin sh 
+  457  env PATH=/home/uk/bin:$PATH sh 
+  458  env PATH=/home/uk/bin:$PATH bash  
+  459  cd bin/
+  460  ls
+  461  mv ls ls_emma
+  462  ls -l
+  463  cd 
+  464  env PATH=/home/uk/bin:$PATH bash  
+  465  env
+  466  pwd
+  467  cd -
+  468  cd 
+  469  cd /usr/share/doc/vim-nox/
+  470  cd /etc/
+  471  ls
+  472  cd -
+  473  env
+  474  cd 
+  475  sh
+  476  id
+  477  echo $UID
+  478  date +%Y%m%d
+  479  cd /tmp/
+  480  ls
+  481  cd 
+  482  ls
+  483  mkdir LX2_emmanuel
+  484  cd LX2_emmanuel/
+  485  ls
+  486  mkdir history
+  487  mkdir src
+  488  ls
+  489  history > history/history-$HOSTNAME
