@@ -1,0 +1,80 @@
+    1  ls -l
+    2  fdisk -l
+    3  cfdisk /dev/sda
+    4  ls
+    5  fdisk -l
+    6  pvcreate /dev/sda7
+    7  fdisk -l
+    8  pvdisplay 
+    9  fdisk /dev/sda
+   10  reboot 
+   11  fdisk -l
+   12  pvcreate /dev/sda7
+   13  pvcreate /dev/sda{8,9,10}
+   14  ls
+   15  touch file{1,2,3,4}
+   16  touch file{a,b,c,papito}
+   17  ls -l
+   18  rm file*
+   19  ls -l
+   20  pvdisplay 
+   21  man vgcreate 
+   22  vgcreate -s 16M vg01 /dev/sda7
+   23  vgdisplay 
+   24  man vgcreate 
+   25  vim /etc/fstab
+   26  vgextend vg01 /dev/sda8
+   27  vgdisplay 
+   28  vgcreate -s 16M vg02 /dev/sda9
+   29  vgextend vg02 /dev/sda10
+   30  vgdisplay 
+   31  man vgdisplay 
+   32  vgdisplay -v
+   33  man lvcreate
+   34  lvcreate -L 500M -n data01 vg01
+   35  lvcreate -L 1G -n data02 vg02
+   36  man df
+   37  df -lh
+   38  fdisk -l
+   39  lvdisplay 
+   40  fdisk -l | grep mapper
+   41  lvdisplay | grep path
+   42  lvdisplay | grep Path
+   43  mkfs.ext4 /dev/vg01/data01 
+   44  mkfs.ext4 /dev/vg02/data02 
+   45  ls
+   46  mkidr data01
+   47  mkdir  data01
+   48  mkdir  data02
+   49  ls -la
+   50  tree
+   51  mount /dev/vg01/data01 data01/
+   52  mount /dev/vg02/data02 data02/
+   53  mount 
+   54  ls
+   55  cd data0
+   56  cd data01
+   57  ls
+   58  cd ..
+   59  ls
+   60  tree
+   61  umount data01/
+   62  ls /dev/vg02/
+   63  ls /dev/vg02/data02
+   64  ls -l
+   65  tree
+   66  df -lh
+   67  ls -l /dev/mapper/
+   68  ls /dev/vg0*
+   69  ls /dev/vg0* -l
+   70  ls /dev/dm-0
+   71  ls /dev/dm-1
+   72  which gcc
+   73  ls -l /usr/bin/gcc*
+   74  apt-cache search gcc-
+   75  ls -l
+   76  mount 
+   77  umont /dev/vg02/data02
+   78  umount /dev/vg02/data02
+   79  mount 
+   80  history > /media/uk/uk/Freelance/Academia/LX2_emmanuel/history/history-root-OptiPlex-9020 
