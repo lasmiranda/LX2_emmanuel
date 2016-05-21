@@ -1,0 +1,20 @@
+[ 1510.862764] usb 3-1.6: SerialNumber: C8600088614DEF918A15D542
+[ 1510.863233] usb-storage 3-1.6:1.0: USB Mass Storage device detected
+[ 1510.863451] scsi host7: usb-storage 3-1.6:1.0
+[ 1511.884057] scsi 7:0:0:0: Direct-Access     Kingston DataTraveler 2.0 PMAP PQ: 0 ANSI: 4
+[ 1511.884552] sd 7:0:0:0: Attached scsi generic sg2 type 0
+[ 1513.317664] sd 7:0:0:0: [sdb] 30497664 512-byte logical blocks: (15.6 GB/14.5 GiB)
+[ 1513.318508] sd 7:0:0:0: [sdb] Write Protect is off
+[ 1513.318518] sd 7:0:0:0: [sdb] Mode Sense: 23 00 00 00
+[ 1513.319219] sd 7:0:0:0: [sdb] No Caching mode page found
+[ 1513.319228] sd 7:0:0:0: [sdb] Assuming drive cache: write through
+[ 1513.345474]  sdb: sdb1
+[ 1513.348663] sd 7:0:0:0: [sdb] Attached SCSI removable disk
+[ 1515.073540] FAT-fs (sdb1): Volume was not properly unmounted. Some data may be corrupt. Please run fsck.
+[ 1588.386547] audit_printk_skb: 123 callbacks suppressed
+[ 1588.386549] audit: type=1400 audit(1463857968.586:68): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/lib/cups/backend/cups-pdf" pid=3691 comm="apparmor_parser"
+[ 1588.386554] audit: type=1400 audit(1463857968.586:69): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=3691 comm="apparmor_parser"
+[ 1588.386776] audit: type=1400 audit(1463857968.586:70): apparmor="STATUS" operation="profile_replace" profile="unconfined" name="/usr/sbin/cupsd" pid=3691 comm="apparmor_parser"
+[ 1878.791340] audit: type=1400 audit(1463858258.758:71): apparmor="DENIED" operation="open" profile="/usr/bin/evince-thumbnailer" name=2F6D656469612F756B2F756B2F467265656C616E63652F41636164656D69612F4C5853322F436F6E74656E69646F2064656C20637572736F2F54656D6120494949202D2050726F6772616D616369C3B36E20656E205368656C6C20536372697074696E672F46696E616C65732F5353202D20303034202D2043C3B36469676F732064652073616C696461 pid=3897 comm="evince-thumbnai" requested_mask="r" denied_mask="r" fsuid=1001 ouid=1001
+[ 1878.813286] audit: type=1400 audit(1463858258.778:72): apparmor="DENIED" operation="open" profile="/usr/bin/evince-thumbnailer" name=2F6D656469612F756B2F756B2F467265656C616E63652F41636164656D69612F4C5853322F436F6E74656E69646F2064656C20637572736F2F54656D6120494949202D2050726F6772616D616369C3B36E20656E205368656C6C20536372697074696E672F46696E616C65732F5353202D20303034202D2043C3B36469676F732064652073616C696461 pid=3897 comm="evince-thumbnai" requested_mask="r" denied_mask="r" fsuid=1001 ouid=1001
+[ 2299.534504] systemd-hostnamed[4018]: Warning: nss-myhostname is not installed. Changing the local hostname might make it unresolveable. Please install nss-myhostname!
