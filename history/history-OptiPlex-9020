@@ -208,3 +208,16 @@
   208  history
   209  ls
   210  history > history/history-OptiPlex-9020 
+  211  git add history/history-OptiPlex-9020
+  212  #git commit -m "ejemplo de diff en git"
+  213  git diff
+  214  gitdiff
+  215  git commit -m "ejemplo de diff en git"
+  216  gitk
+  217  cd /media/uk/uk/
+  218  ls
+  219  cd Freelance/Academia/LX2_emmanuel/
+  220  ls
+  221  cd history/
+  222  ls
+  223  history > history-OptiPlex-9020 
