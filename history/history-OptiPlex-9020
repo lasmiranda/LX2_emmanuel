@@ -191,3 +191,20 @@
   191  history >> history-OptiPlex-9020 
   192  less history-OptiPlex-9020
   193  history > history-OptiPlex-9020
+  194  less history-OptiPlex-9020 
+  195  git status 
+  196  git add history-OptiPlex-9020 
+  197  ls
+  198  git commit -m "history con ejemplo de LVM" 
+  199  git log
+  200  sudo apt-get install gitk
+  201  ls
+  202  ls -l
+  203  gitk
+  204  tee
+  205  tree
+  206  cd ..
+  207  ls
+  208  history
+  209  ls
+  210  history > history/history-OptiPlex-9020 
